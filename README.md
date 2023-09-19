@@ -1,6 +1,6 @@
 # Awesome-books
 
-Awesome-books is a prpject instigated to solve real-world problems that will measure your mastery of learning towards how you can:
+Awesome-books is a project instigated to solve real-world problems that will measure your mastery of learning towards how you can:
 
 1) Understand different ways to create objects in JavaScript.
 2) Create and access properties and methods of JavaScript objects.
