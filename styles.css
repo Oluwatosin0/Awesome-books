@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-top: 1.5rem;
+  font-family: 'Gabriela', serif;
+  text-align: center;
+  color: rgb(29, 29, 59);
+}
+
+.collection {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #ffff;
+  border: 4px rgb(29, 29, 59) solid;
+}
+
+p {
+  font-family: 'Gabriela', serif;
+  color: rgb(29, 29, 59);
+  font-weight: 600;
+  font-size: 20px;
+  margin: 1px;
+  padding: 10px;
+}
+
+p span {
+  float: right;
+}
+
+p:nth-child(odd) {
+  background-color: rgb(223, 220, 220);
+}
+
+p button {
+  border: 4px rgb(29, 29, 59) solid;
+  font-size: 18px;
+  font-family: 'Gabriela', serif;
+  color: rgb(29, 29, 59);
+  cursor: pointer;
+}
+
+form {
+  text-align: center;
+  padding-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+input {
+  font-family: 'Gabriela', serif;
+  border: 4px rgb(29, 29, 59) solid;
+  padding: 5px 25px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#add-button {
+  border: 4px rgb(29, 29, 59) solid;
+  font-size: 18px;
+  font-family: 'Gabriela', serif;
+  color: rgb(29, 29, 59);
+  margin-left: 12rem;
+  cursor: pointer;
+}
