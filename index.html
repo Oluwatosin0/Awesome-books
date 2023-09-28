@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Gabriela&family=Inter:wght@600&family=Lato:wght@300;400;700;900&family=Montserrat+Alternates:wght@600;800&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Awesome Books</title>
 </head>
 <body>
-    <h1>Awesome books</h1>
+    <h1> All awesome books</h1>
 
-    <p>Lorem ipsum </p>
-    <p>Testeroo Testyy</p>
-    <button class="remove-button">Remove</button>
-    <hr>
-
-    <p>Second book</p>
-    <p>Testeroo Testyy</p>
-    <button class="remove-button">Remove</button>
-    <hr><br>
+    <div class="collection">
+        <p>"Title" by Author <span><button>Remove</button></span></p>
+        <p>"Title" by Author <span><button>Remove</button></span></p>
+        <p>"Title" by Author <span><button>Remove</button></span></p>
+        <p>"Title" by Author <span><button>Remove</button></span></p>
+        <p>"Title" by Author <span><button>Remove</button></span></p>
+        <p>"Title" by Author <span><button>Remove</button></span></p>
+    </div>
+    
 
     <form id="addBookForm">
+        <h1 class="head">Add a new book</h1>
         <label for="title"></label>
         <input type="text" id="title" placeholder="Title" required><br><br>
     
