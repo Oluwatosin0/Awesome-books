@@ -3,6 +3,7 @@ class listOfBooks {
     constructor () {
         this.bookCollection = []
     }
+}
 
 if (localStorage.getItem("bookCollection")) {
     bookCollection = JSON.parse(localStorage.getItem("bookCollection"));
@@ -46,7 +47,7 @@ document.getElementById('add-button').addEventListener('click', () => {
     document.getElementById('title').value = "";
     document.getElementById('author').value = "";
 });
-}
+
 
 displayBookList();
 
